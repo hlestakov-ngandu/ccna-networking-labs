@@ -24,3 +24,13 @@ This repository documents my guided networking exercises, configurations, and le
 
 More labs and practical projects will be added as I progress.
 
+## Certifications
+
+### Cisco Certified Network Associate (CCNA)
+
+- **Issuing Organization:** Cisco
+- **Date Issued:** November 15, 2026
+- **Expiration Date:** November 15, 2029
+- **Verification:** [Cisco Certification Verification](https://www.cisco.com/go/verifycertificate)
+
+
