@@ -10,6 +10,7 @@ This section contains my guided Cisco Packet Tracer exercises covering:
 - Syslog
 - SNMP
 - FTP and TFTP
+- CDP
 
 **Tools:** Cisco Packet Tracer
 
