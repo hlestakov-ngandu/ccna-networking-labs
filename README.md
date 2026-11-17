@@ -3,34 +3,62 @@
 
 Welcome to my networking portfolio.
 
-I am building my knowledge and practical skills in computer networking through Cisco Packet Tracer exercises and CCNA-related studies.
+I am a Cisco Certified Network Associate (CCNA) with a Diploma in Computer Science from Zetech University. This repository showcases my networking studies, Cisco Packet Tracer exercises, configurations, and practical learning progress.
+
+My goal is to continue developing my technical skills and gaining hands-on experience in computer networking.
 
 ## Topics Covered
 
-- IP Addressing and Subnetting
-- VLANs
-- DHCP
+- IPv4 Addressing and Subnetting
+- VLANs and Switching
+- DHCP and Network Services
 - Static Routing
 - OSPF
 - Access Control Lists (ACLs)
+- Network Troubleshooting
+- Routing and WAN Fundamentals
+
+## Repository Structure
+
+| Folder | Topic |
+|---|---|
+| 01-basic-networking | Basic Networking |
+| 02-ip-addressing-subnetting | IP Addressing and Subnetting |
+| 03-vlans-and-switching | VLANs and Switching |
+| 04-routing-and-wan | Routing and WAN |
+| 05-network-services | Network Services |
+| 06-network-security | Network Security |
+| 07-review-and-troubleshooting | Review and Troubleshooting |
 
 ## Tools
 
 - Cisco Packet Tracer
 
-## About This Repository
+## Practical Work
 
-This repository documents my guided networking exercises, configurations, and learning progress as I develop my networking skills.
+This repository contains guided networking exercises, Packet Tracer configurations, and lab files used to develop and reinforce my networking knowledge.
 
-More labs and practical projects will be added as I progress.
+I will continue adding practical projects and documenting my progress as I develop my skills.
 
-## Certifications
+## Certification
 
 ### Cisco Certified Network Associate (CCNA)
 
 - **Issuing Organization:** Cisco
 - **Date Issued:** November 15, 2026
 - **Expiration Date:** November 15, 2029
-- **Verification:** [Cisco Certification Verification](https://www.cisco.com/go/verifycertificate)
+- **Credential Verification:** [Verify Cisco Certification](https://cp.certmetrics.com/cisco/en/public/verify/credential)
+- **Credly Badge:** [View My CCNA Badge](https://www.credly.com/badges/3997821f-d84a-441b-9fd5-dac4b1d4ae62/public_url)
 
+## Professional Interests
 
+- Network Support
+- Network Engineering
+- Routing and Switching
+- Network Operations Centre (NOC)
+- Network Troubleshooting
+
+## Connect With Me
+
+- **LinkedIn:** [Hlestakov Ngandu](https://www.linkedin.com/in/hlestakov-ngandu-19aa4244b)
+- **GitHub:** [hlestakov-ngandu](https://github.com/hlestakov-ngandu)
