@@ -191,3 +191,11 @@ A direct link between R1 and R2 was considered during the design. However, Packe
 Instead, both edge routers connect to DSW1 and DSW2. OSPF Area 0 allows the edge routers to exchange routing information through the distribution layer.
 
 This design maintains redundant paths between the edge and distribution layers without requiring a direct inter-router link.
+
+### Routing Design
+
+OSPF Area 0 is used as the dynamic routing protocol between R1, R2, DSW1, and DSW2.
+
+The distribution switches exchange routing information over the Layer 3 EtherChannel. This allows the edge routers to learn internal VLAN networks and the distribution switches to learn the WAN default routes.
+
+ISP1 is preferred for normal internet traffic, while ISP2 is intended to provide a backup path when the primary connection becomes unavailable.
