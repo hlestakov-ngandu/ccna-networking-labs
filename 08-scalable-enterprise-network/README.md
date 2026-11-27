@@ -175,3 +175,5 @@ The network was tested in Cisco Packet Tracer to verify connectivity, routing, r
 - Verified distribution-switch redundancy.
 - Tested EtherChannel link resilience.
 - Verified that Rapid PVST+ maintains loop-free Layer 2 connectivity.
+
+## Design Decisions and Packet Tracer Limitations
