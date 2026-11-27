@@ -126,3 +126,25 @@ Access Control Lists (ACLs) are used to restrict Guest VLAN access to internal n
 
 ### Security Improvements
 Dynamic ARP Inspection was considered as an additional security feature, but it was not implemented due to Packet Tracer limitations.
+
+## Redundancy and High Availability
+
+The network uses redundant devices and links to reduce single points of failure and improve availability.
+
+### Distribution Layer
+- DSW1 and DSW2 provide redundant Layer 3 distribution.
+- A Layer 3 LACP EtherChannel connects the two distribution switches.
+- Access switches have uplinks to both distribution switches.
+
+### Gateway Redundancy
+HSRP is configured on the distribution switches to provide virtual default gateways for the departmental VLANs.
+
+If the active distribution switch becomes unavailable, the standby switch can take over the virtual gateway role.
+
+### WAN Redundancy
+- ISP1 is the preferred WAN connection.
+- ISP2 is configured as the backup connection.
+- OSPF routing allows the network to use the backup path when the primary path is unavailable.
+
+### Spanning Tree
+Rapid PVST+ is configured to prevent Layer 2 loops while allowing redundant links to remain available as alternate paths.
