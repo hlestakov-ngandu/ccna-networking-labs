@@ -46,3 +46,7 @@ The access switches have uplinks to both distribution switches. This provides an
 The network uses VLANs to separate departments and network services. Routing between VLANs is handled by the distribution switches.
 
 The topology is designed to provide reliable connectivity, support the current needs of a small organization, and allow future expansion.
+
+## Network Topology
+
+![Project 001 Network Topology](project001-network-topology.png)
