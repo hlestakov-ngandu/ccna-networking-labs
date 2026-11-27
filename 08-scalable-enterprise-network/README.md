@@ -148,3 +148,30 @@ If the active distribution switch becomes unavailable, the standby switch can ta
 
 ### Spanning Tree
 Rapid PVST+ is configured to prevent Layer 2 loops while allowing redundant links to remain available as alternate paths.
+
+## Testing and Verification
+
+The network was tested in Cisco Packet Tracer to verify connectivity, routing, redundancy, and network services.
+
+### Connectivity Tests
+- Verified connectivity between end devices and their default gateways.
+- Verified inter-VLAN communication where permitted.
+- Verified connectivity between network devices using ping.
+- Tested access to simulated ISP loopback addresses.
+
+### Routing Tests
+- Verified OSPF neighbor relationships.
+- Verified OSPF-learned internal routes.
+- Verified that ISP1 is preferred during normal operation.
+- Verified that ISP2 can provide the backup path.
+
+### Network Services Tests
+- Verified that clients receive IP addresses through DHCP.
+- Verified that DHCP relay forwards requests from client VLANs.
+- Verified internal DNS name resolution.
+
+### Redundancy Tests
+- Verified HSRP gateway operation.
+- Verified distribution-switch redundancy.
+- Tested EtherChannel link resilience.
+- Verified that Rapid PVST+ maintains loop-free Layer 2 connectivity.
