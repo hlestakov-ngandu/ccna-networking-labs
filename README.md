@@ -40,6 +40,15 @@ This repository contains guided networking exercises, Packet Tracer configuratio
 
 I will continue adding practical projects and documenting my progress as I develop my skills.
 
+### Independent Projects
+
+#### Project 001: Scalable Small Enterprise Network Design & Implementation
+
+Designed and implemented a scalable small enterprise network in Cisco Packet Tracer, featuring VLAN segmentation, inter-VLAN routing, OSPF, DHCP, DNS, network security, redundancy, and dual-ISP failover.
+
+- [View Project Documentation](08-scalable-enterprise-network/README.md)
+- [Download Packet Tracer Project](08-scalable-enterprise-network/Project%20001.pkt)
+
 ## Certification
 
 ### Cisco Certified Network Associate (CCNA)
