@@ -49,4 +49,4 @@ The topology is designed to provide reliable connectivity, support the current n
 
 ## Network Topology
 
-![Project 001 Network Topology](08-scalable-enterprise-network/project001-network-topology.png.png)
+![Project 001 Network Topology](./project001-network-topology.png)
