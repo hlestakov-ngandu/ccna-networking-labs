@@ -199,3 +199,20 @@ OSPF Area 0 is used as the dynamic routing protocol between R1, R2, DSW1, and DS
 The distribution switches exchange routing information over the Layer 3 EtherChannel. This allows the edge routers to learn internal VLAN networks and the distribution switches to learn the WAN default routes.
 
 ISP1 is preferred for normal internet traffic, while ISP2 is intended to provide a backup path when the primary connection becomes unavailable.
+
+## 13. Project Status and Future Improvements
+
+### Project Status
+
+The core network design and implementation have been completed in Cisco Packet Tracer. The network includes VLAN segmentation, inter-VLAN routing, OSPF, DHCP, DNS, network security controls, redundancy, and dual-ISP connectivity.
+
+Connectivity, routing, security, and failover scenarios have been tested and verified in the lab.
+
+The completed Packet Tracer project file is included in this repository for review and further study.
+
+### Future Improvements
+
+- Implement Dynamic ARP Inspection when supported by the simulation environment.
+- Expand the network with additional departments and access switches.
+- Explore more advanced routing and network security features.
+- Recreate the design in a more realistic network simulation or lab environment.
