@@ -27,3 +27,22 @@ The main goals of this project are:
 ## Project Ownership
 
 This is my own independent networking project, designed and built by me using Cisco Packet Tracer. It is different from the guided CCNA labs in this repository, where I followed lessons and instructions to practise networking concepts. For this project, I made my own design decisions, built the network, configured the devices, tested the connectivity, and worked through the challenges independently.
+
+## Network Topology and Devices
+
+The network is built using a hierarchical design with edge routers, distribution switches, and access switches.
+
+The topology includes:
+
+- **Two ISPs:** ISP1 is the primary internet connection, while ISP2 provides backup.
+- **Two edge routers:** R1 connects to ISP1, and R2 connects to ISP2. Both routers connect to the two distribution switches.
+- **Two distribution switches:** DSW1 and DSW2 provide inter-VLAN routing and help improve network availability.
+- **Four access switches:** ASW1, ASW2, ASW3, and ASW4 connect end devices to the network.
+- **Servers:** A DHCP server provides IP addresses to clients, while a DNS server provides name resolution.
+- **End devices:** PCs, printers, and wireless access points are connected through the access switches.
+
+The access switches have uplinks to both distribution switches. This provides an alternative path if one distribution switch or uplink becomes unavailable.
+
+The network uses VLANs to separate departments and network services. Routing between VLANs is handled by the distribution switches.
+
+The topology is designed to provide reliable connectivity, support the current needs of a small organization, and allow future expansion.
