@@ -183,3 +183,11 @@ The network was tested in Cisco Packet Tracer to verify connectivity, routing, r
 The Cisco 2911 routers were selected because the initially tested router model provided Layer 2 switchports that could not be configured with IP addresses for the required routed links.
 
 The Cisco 2911 provided the routed Gigabit Ethernet interfaces needed for the enterprise network design.
+
+### Router Interconnection
+
+A direct link between R1 and R2 was considered during the design. However, Packet Tracer's available router interfaces and module connectivity limited the implementation.
+
+Instead, both edge routers connect to DSW1 and DSW2. OSPF Area 0 allows the edge routers to exchange routing information through the distribution layer.
+
+This design maintains redundant paths between the edge and distribution layers without requiring a direct inter-router link.
