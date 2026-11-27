@@ -105,3 +105,24 @@ The network provides centralized DHCP and DNS services to support client connect
 
 ### Server Network
 The DHCP and DNS servers are connected to the server VLAN, which is separated from user and management traffic.
+
+## Network Security
+
+The network implements basic Layer 2 and Layer 3 security measures to reduce unauthorized access and improve network reliability.
+
+### VLAN Segmentation
+- Departments are separated into dedicated VLANs.
+- The Guest VLAN is isolated from internal departmental networks.
+- The Server VLAN is separated from user and management traffic.
+
+### Switch Security
+- Unused switch ports are assigned to VLAN 999 and administratively disabled.
+- Port security with sticky MAC addresses is enabled on selected end-device ports.
+- PortFast and BPDU Guard are configured on appropriate edge ports.
+- DHCP snooping is enabled to help protect against unauthorized DHCP servers.
+
+### Access Control
+Access Control Lists (ACLs) are used to restrict Guest VLAN access to internal network resources while permitting required services and external connectivity.
+
+### Security Improvements
+Dynamic ARP Inspection was considered as an additional security feature, but it was not implemented due to Packet Tracer limitations.
