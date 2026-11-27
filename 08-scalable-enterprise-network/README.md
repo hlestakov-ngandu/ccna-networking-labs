@@ -87,3 +87,21 @@ The network uses OSPF Area 0 to exchange routing information between the edge ro
 The network is configured to prefer ISP1 during normal operation. If the primary ISP connection becomes unavailable, the network can use ISP2 as the backup path.
 
 Failover is verified by testing connectivity through the primary connection, temporarily disabling it, and confirming that traffic can use the backup connection.
+
+## Network Services
+
+The network provides centralized DHCP and DNS services to support client connectivity and name resolution.
+
+### DHCP
+- A dedicated DHCP server provides dynamic IP addressing to client devices.
+- DHCP scopes are configured for the departmental VLANs.
+- Default gateways and DNS server addresses are provided through DHCP.
+- DHCP relay is configured on the distribution switches to forward client requests to the DHCP server.
+
+### DNS
+- A dedicated DNS server provides name resolution for the network.
+- Internal DNS records are configured for network services.
+- Clients use the DNS server address provided through DHCP.
+
+### Server Network
+The DHCP and DNS servers are connected to the server VLAN, which is separated from user and management traffic.
