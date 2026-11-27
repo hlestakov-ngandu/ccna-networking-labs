@@ -65,3 +65,25 @@ The network uses VLANs to logically separate departments, servers, and managemen
 | 60 | Servers | 172.16.6.0/27 | 172.16.6.1 |
 | 70 | Management | 172.16.6.32/27 | 172.16.6.33 |
 | 999 | Parking VLAN | No IP address | N/A |
+
+## Routing and WAN
+
+The network uses OSPF Area 0 to exchange routing information between the edge routers and distribution switches.
+
+### OSPF
+- OSPF is configured in Area 0.
+- R1 and R2 establish OSPF adjacencies with DSW1 and DSW2.
+- DSW1 and DSW2 exchange routing information over a Layer 3 EtherChannel.
+- Internal VLAN networks are advertised through OSPF.
+
+### Internet Connectivity
+- ISP1 is the primary internet connection through R1.
+- ISP2 provides backup connectivity through R2.
+- Both edge routers connect to both distribution switches.
+- OSPF default routes are used to direct traffic toward the internet.
+- NAT/PAT translates internal private addresses for external connectivity.
+
+### Redundancy and Failover
+The network is configured to prefer ISP1 during normal operation. If the primary ISP connection becomes unavailable, the network can use ISP2 as the backup path.
+
+Failover is verified by testing connectivity through the primary connection, temporarily disabling it, and confirming that traffic can use the backup connection.
