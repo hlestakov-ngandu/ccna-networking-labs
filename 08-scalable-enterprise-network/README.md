@@ -50,3 +50,18 @@ The topology is designed to provide reliable connectivity, support the current n
 ## Network Topology
 
 ![Project 001 Network Topology](./project001-network-topology.png)
+
+## VLANs and IP Addressing
+
+The network uses VLANs to logically separate departments, servers, and management traffic. Each VLAN has its own IP subnet and default gateway.
+
+| VLAN | Name | Network | Default Gateway |
+|---|---|---|---|
+| 10 | Administration | 172.16.4.0/25 | 172.16.4.1 |
+| 20 | Finance | 172.16.5.128/26 | 172.16.5.129 |
+| 30 | Operations | 172.16.4.128/25 | 172.16.4.129 |
+| 40 | Guest Wi-Fi | 172.16.5.0/25 | 172.16.5.1 |
+| 50 | IT | 172.16.5.192/26 | 172.16.5.193 |
+| 60 | Servers | 172.16.6.0/27 | 172.16.6.1 |
+| 70 | Management | 172.16.6.32/27 | 172.16.6.33 |
+| 999 | Parking VLAN | No IP address | N/A |
