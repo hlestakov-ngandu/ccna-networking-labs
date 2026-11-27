@@ -23,3 +23,5 @@ The main goals of this project are:
 - Provide network services such as DHCP and DNS.
 - Protect the network using basic security features.
 - Make the network easy to expand as the organization grows.
+
+- This is my own independent networking project, designed and built by me using Cisco Packet Tracer. It is different from the guided CCNA labs in this repository, where I followed lessons and instructions to practise networking concepts. For this project, I made my own design decisions, built the network, configured the devices, tested the connectivity, and worked through the challenges independently.
