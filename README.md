@@ -29,6 +29,7 @@ My goal is to continue developing my technical skills and gaining hands-on exper
 | 05-network-services | Network Services |
 | 06-network-security | Network Security |
 | 07-review-and-troubleshooting | Review and Troubleshooting |
+| 08-scalable-enterprise-network | Independent Enterprise Network Project |
 
 ## Tools
 
