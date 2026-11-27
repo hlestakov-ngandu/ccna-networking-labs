@@ -177,3 +177,9 @@ The network was tested in Cisco Packet Tracer to verify connectivity, routing, r
 - Verified that Rapid PVST+ maintains loop-free Layer 2 connectivity.
 
 ## Design Decisions and Packet Tracer Limitations
+
+### Router Selection
+
+The Cisco 2911 routers were selected because the initially tested router model provided Layer 2 switchports that could not be configured with IP addresses for the required routed links.
+
+The Cisco 2911 provided the routed Gigabit Ethernet interfaces needed for the enterprise network design.
